@@ -1,0 +1,46 @@
+.formError {
+    @apply text-[#ff3b30];
+}
+
+.sidebar_link:hover .sidebar-svg {
+    @apply fill-blue-700;
+}
+
+.active .sidebar-svg {
+    @apply fill-blue-700;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+    width: 12px;
+    height: 5px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+    background-color: #1D4ED8;
+    border-radius: 6px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-track {
+    background-color: #1d4fd809;
+    border-radius: 6px;
+}
+
+.custom-scrollbar {
+    scrollbar-width: thin;
+    scrollbar-color: #4b5563 #cbd5e0;
+}
+
+.even-row {
+    background-color: #00000005;
+}
+
+.ant-table-row.ant-table-row-level-0.even-row .ant-table-cell, .ant-table-row.ant-table-row-level-0 .ant-table-cell {
+    padding-top: 2px !important;
+    padding-bottom: 2px !important;
+}
+
+.ant-table-thead {
+    line-height: 24.83px !important;
+    font-weight: 600 !important;
+    font-size: 1rem !important;
+}
