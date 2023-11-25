@@ -31,9 +31,6 @@ export default function LoginForm () {
       if (success) {
         dispatch(setToken(token));
         dispatch(setUser(user));
-
-        console.log (token);
-        console.log (user);
         // Redirect to the dashboard or any other page after successful login
         toast.success ('Health Provider logged in successfully');
         navigate ('/dashboard');
